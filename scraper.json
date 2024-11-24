@@ -1,0 +1,8 @@
+// USAGE: Specify CSS selector to locate the info you want to scrape from a web page.
+// Each Key of a Key, Value couple will result in the column header of the output file.
+// The following are given examples.
+{
+    "image": ".css-c7fml6 img",
+    "price text": ".css-e4uzb4 span",
+    "title text": "#title-container h1"
+}
