@@ -6,4 +6,4 @@ USAGE:
 4) .csv file containing the scraped data is exported in the .py directory  
 
 
-!!: the path are relative, therefore please contain all necessary files in the same folder.
+!! the path are relative, therefore please contain all necessary files in the same folder. !!
