@@ -47,7 +47,7 @@ for url in urlList:
     scraped_page = bs4.BeautifulSoup(res.text, "html.parser")
     #For Loop: For every response object select html tags according to selectors declared in input.json
     for selector  in subdict:
-        if "link" in selector:
+        if "href" in selector:
             html_box = scraped_page.select(subdict[selector])
             print(f"{selector}: {html_box[0].get("href")}")
             df.loc[index, selector] = html_box[0].get("href")
@@ -55,7 +55,7 @@ for url in urlList:
             html_box = scraped_page.select(subdict[selector])
             print(f"{selector}: {html_box[0].getText()}")
             df.loc[index, selector] = html_box[0].getText()
-        elif "image" in selector:
+        elif "src" in selector:
             html_box = scraped_page.select(subdict[selector])
             print(f"{selector}: {html_box[0].get("src")}")
             df.loc[index, selector] = html_box[0].get("src")
