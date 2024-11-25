@@ -1,5 +1,6 @@
 // USAGE: Specify CSS selector to locate the info you want to scrape from a web page.
-// Each Key of a Key, Value couple will result in the column header of the output file.
+// Each key must contain the html/css attribute that is to be scraped. ("text" when html tag TextContent is to be scraped).
+// Each Key of a Key, Value pair will result in the column header of the output file.
 // The following are given examples.
 {
     "producturl href": ".something",
