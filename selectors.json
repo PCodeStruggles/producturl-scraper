@@ -2,7 +2,8 @@
 // Each Key of a Key, Value couple will result in the column header of the output file.
 // The following are given examples.
 {
-    "image": ".css-c7fml6 img",
+    "url href": ".something",
+    "image src": ".css-c7fml6 img",
     "price text": ".css-e4uzb4 span",
     "title text": "#title-container h1"
 }
