@@ -38,7 +38,7 @@ df = pd.DataFrame()
 i = int(0)
 
 #Importing json file where selectors are declared
-with open("input_prot.json", "r") as selectors_file:
+with open("input.json", "r") as selectors_file:
     scrape_env = json.load(selectors_file)
 
 #Inner useful variables
