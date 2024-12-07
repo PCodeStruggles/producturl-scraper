@@ -12,3 +12,12 @@ The user can specify the "Input URL Format" using a flag upon running the script
 -  In case of no flags provided, user will be prompted with script usage.
   
 Once the scraping is carried out, the scraped data will be stored in a output .csv file in the script's folder.  
+
+
+
+
+!! TO DO !!
+- Try/Except block to catch requests.get exceptions.
+- Try/Except block to catch bs4 exceptions.
+- Allow to scrape multiple "Combined URLs".
+- Collect screenshot of scraped URLs.
