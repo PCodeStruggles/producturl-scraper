@@ -1,3 +1,11 @@
+//USAGE
+//"url" and "box" are mandatory keys, remaining keys are optional.
+//"url" value can either be a list of URLs if heavy scraping is to be carried out or a "combined url" as in the given example, if such format is used the scraper will scrape url from "...?page=1" to "...?page=2".
+//When heavy scraping "box" can be left with no value.
+//For every other selector declared, the selector key will be used as header in the output csv file.
+
+
+
 {
     "url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=[1-20]",
     "box": ".product-wrapper.card-body",
