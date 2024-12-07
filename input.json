@@ -1,0 +1,8 @@
+{
+    "url": "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=[1-20]",
+    "box": ".product-wrapper.card-body",
+    "listing_url": [".title", "href"],
+    "title": [".title", "getText"],
+    "price": [ ".price.float-end.card-title.pull-right", "getText"],
+    "img": [".img-fluid.card-img-top.image.img-responsive", "src"]
+}
