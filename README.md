@@ -11,4 +11,4 @@ The user can specify the "Input URL Format" using a flag upon running the script
 -  "-p": List of different url is provided as input. (Heavy scraping).
 -  In case of no flags provided, user will be prompted with script usage.
   
-Once the scraping is carried out, the scraped data will be stored in a output csv file in the script's folder.  
+Once the scraping is carried out, the scraped data will be stored in a output .csv file in the script's folder.  
