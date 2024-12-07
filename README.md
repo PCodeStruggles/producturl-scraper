@@ -6,7 +6,7 @@ The URLs that are to be scraped can be declared either as a list of URLs or, if 
   
 In the latter case, the script will parse such "Combined Url" and will proceed to scrape each URL from "https://abc.com/page=1" to "https://abc.com/page=20".  
 
-The user can specify the input url format using a flag upon running the script:  
+The user can specify the "Input URL Format" using a flag upon running the script:  
 - "-l": "Combined Url" is provided as input url. (Light scraping).
 -  "-p": List of different url is provided as input. (Heavy scraping).
 -  In case of no flags provided, user will be prompted with script usage.
