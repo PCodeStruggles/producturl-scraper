@@ -19,5 +19,5 @@ Once the scraping is carried out, the scraped data will be stored in a output .c
 !! TO DO !!
 - Try/Except block to catch requests.get exceptions.
 - Try/Except block to catch bs4 exceptions.
-- Allow for the scraping of multiple "Combined URLs".
+- Allow for the scraping of multiple "Combined URLs". (Done!)
 - Collect screenshot of scraped URLs.
